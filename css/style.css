@@ -20239,3 +20239,46 @@ disabled look for disabled choices in the results dropdown
 .modal-body {
 	padding: 29px 30px 35px;
 }
+
+
+@media (min-width: 992px) {
+	.review-carousel .item {
+		flex-direction: row;
+	}
+	.review-carousel .item-preview {
+		margin-top: 0;
+		margin-right: 60px;
+		align-self: flex-start;
+	}
+}
+@media (min-width: 992px) {
+	.review-carousel .item {
+		padding-right: 120px;
+	}
+}
+
+.review-carousel .item-preview {
+	min-width: 216px;
+	max-width: 216px;
+	height: 216px;
+	margin-top: 30px;
+	background-color: #ffffff;
+	padding: 10px;
+	border-radius: 50%;
+	align-self: center;
+}
+
+.review-carousel .item-preview {
+	min-width: 216px;
+	max-width: 216px;
+	height: 216px;
+	margin-top: 30px;
+	background-color: #ffffff;
+	padding: 10px;
+	border-radius: 50%;
+	align-self: center;
+}
+
+.review-carousel .item-preview img {
+	border-radius: 50%;
+}
