@@ -20289,7 +20289,51 @@ disabled look for disabled choices in the results dropdown
 	border-radius: 50%;
 }
 
-.about{
+/**aboutus**/
+.about-container {
+	
+	margin: 0 auto;
+	padding: 50px;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	max-width:770;
 	background-color:#f6f6f6;
+	
+}
 
+.image-container {
+	width: 30%;
+	float: left;
+	margin-right: 5%;
+	padding:5%;
+
+}
+
+.text-container {
+	width: 50%;
+	float: left;
+}
+
+@media only screen and (max-width: 768px) {
+	.about-container {
+		flex-direction: column;
+	}
+	
+	.image-container {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	
+	.text-container {
+		width: 100%;
+	}
+	
+	h1 {
+		font-size: 1.5rem;
+	}
+	
+	p {
+		font-size: 1rem;
+	}
 }
