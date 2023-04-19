@@ -2,7 +2,7 @@
   "useSmtp": false,
   "host": "stmp.gmail.com",
   "port": 465,
-  "username": "kraftome@gmail.com",
-  "password": "kartik@98422",
-  "recipientEmail": "hariprasath@kraftome.com"
+  "username": "inquiry@hariprasath.co",
+  "password": "Kovai@98422",
+  "recipientEmail": "inquiry@hariprasath.co"
 }
