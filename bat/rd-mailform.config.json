@@ -1,6 +1,6 @@
 {
   "useSmtp": false,
-  "host": "smtp.zoho.in",
+  "host": "smtppro.zoho.in",
   "port": 465,
   "username": "inquiry@hariprasath.co",
   "password": "Kovai@98422",
