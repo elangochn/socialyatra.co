@@ -1,8 +1,8 @@
 {
   "useSmtp": false,
-  "host": "smtppro.zoho.in",
+  "host": "smtp.gmail.com",
   "port": 465,
-  "username": "inquiry@hariprasath.co",
-  "password": "Kovai@98422",
+  "username": "info.hariprasath@gmail.com",
+  "password": "Summer@123",
   "recipientEmail": "inquiry@hariprasath.co"
 }
