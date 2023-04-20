@@ -1,8 +1,0 @@
-{
-  "useSmtp": false,
-  "host": "smtp.gmail.com",
-  "port": 465,
-  "username": "info.hariprasath@gmail.com",
-  "password": "Summer@123",
-  "recipientEmail": "inquiry@hariprasath.co"
-}
