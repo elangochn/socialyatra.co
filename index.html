@@ -1,9 +1,6 @@
 <!DOCTYPE html>
 <html class="wide wow-animation" lang="en">
   <head>
-  
-
-       
 <!-- Global site tag (gtag.js) - Google Analytics
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-173572277-2"></script>
 <script>
@@ -50,9 +47,6 @@
     h3 {
 	font-size: 30px;
 }
-
-
-  
     </style>
   </head>
 
@@ -62,7 +56,7 @@
     <div class="ie-panel"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
     <div class="preloader">
       <div class="preloader-body">
-        <div class="cssload-container" style="color:f1aa49"><span></span><span></span><span></span><span></span>
+        <div class="cssload-container"><span></span><span></span><span></span><span></span>
         </div>
       </div>
     </div>
@@ -112,7 +106,7 @@
         </header>
 
         <!-- Swiper   -->
-       <!--     <section class="section swiper-container swiper-slider swiper-slider-classic" data-loop="true" data-autoplay="4859" data-simulate-touch="true" data-direction="vertical" data-nav="false">
+         <section class="section swiper-container swiper-slider swiper-slider-classic" data-loop="true" data-autoplay="4859" data-simulate-touch="true" data-direction="vertical" data-nav="false">
           <div class="swiper-wrapper text-center">
             <div class="swiper-slide" data-slide-bg="images/slider-1-slide-2-1770x742.jpg">
               <div class="swiper-slide-caption section-md">
@@ -146,141 +140,18 @@
                   
                 </div>
               </div>
-           
             </div>-->
+          </div>
           <!-- Swiper Pagination-->
-           <!--  <div class="swiper-pagination__module">
+          <div class="swiper-pagination__module">
             <div class="swiper-pagination__fraction"><span class="swiper-pagination__fraction-index">00</span><span class="swiper-pagination__fraction-divider">/</span><span class="swiper-pagination__fraction-count">00</span></div>
             <div class="swiper-pagination__divider"></div>
             <div class="swiper-pagination"></div>
           </div>
         </section>
 
-      </div>-->
-     
-
-<!-- Cta-->
-    <!-- <section class="section section-fluid bg-default">
-        <div class="parallax-container" data-parallax-img="images/parallax-1.jpg">
-          <div class="parallax-content section-xl context-dark bg-overlay-68 bg-mobile-overlay">
-            <div class="container">
-              <div class="row row-30 justify-content-end text-right">
-                <div class="col-sm-7">
-                 <outline>In 2015, I started an online business to sell via social media platforms such as Facebook and Instagram after working for 5 years in the digital space.</outline><br>
-				  <outline>I have successfully generated over INR 40 million in online revenue and increased footfall for offline businesses, resulting in an additional INR 50 million in revenue.</outline>
-                  <outline>Based on my experience owning an online business, I now help B2C businesses create a robust online presence and generate revenue primarily by running ad campaigns.</outline>
-                  <div class="group-sm group-middle group justify-content-end"><a class="button button-primary button-ujarak" href="https://www.facebook.com/kraftome/" >Shop AT</a></div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      
-      -->
-      <section  id="Home">
-            <div class="about-container1">
-	        <!-- Centered Profile Image -->
-
-        <img src="images/user-1-216x216.png" alt="Profile Picture" width="288" height="288" align="center">
-        <br><br>
-         <h2  ><strong>SHANMUGASUNDARAM .K</strong></h2>
-			<h4>Business Owner </h4>
-				  <h4>Upcycling Vintage Furniture</h4>
-			</div>
-    <br>
-     <div class="containert" >
-        <div class="boxt">
-        <a href="tel:+919842268496">
-    <img src="images\Phone_call.png" alt="Call Us" >
-</a><p>Phone</p>
-          
-        </div>
-        <div class="boxt">
-        <a href="https://www.facebook.com/kraftome" target="_blank">
-            <img src="images\facebook.png"  alt="Facebook">
-            <p>Facebook</p></a>
-        </div>
-                <div class="boxt">
-                <a href="https://www.instagram.com/kraftome.vintage" target="_blank">
-    
-            <img src="images\insta.png" alt="Instagram" src="www.instagram.com/kraftome.vintage">
-            <p>Instagram</p></a>
-        </div>
-        <div class="boxt">
-            <img src="images\whatsapp.png" onclick="shareOnWhatsApp()" alt="Share in WhatsApp">
-            <p>Share in WhatsApp</p>
-        </div>
-        <div class="boxt">
-            <img src="images\Save_to_Phone_book.png"  onclick="saveToContacts()" alt="Save to Contact">
-	
-        </div>
-       
-        <div class="boxt">
-            <img src="images/PDF_Down.png"  onclick="saveAsPDF()" alt="Save PDF">
-            
-            </div>
       </div>
-    </div>
-
-    <!-- Scripts -->
-  
-     
-     <script>
-        // Share contact details via WhatsApp
-        function shareOnWhatsApp() {
-            var contactName = "SHANMUGASUNDARAM.K";
-            var jobTitle = "Business Owner";
-            var phone = "+91 9842268496";
-            var email = "hari@example.com";
-            var message = `Check out this contact:\nName: ${contactName}\nJob Title: ${jobTitle}\nPhone: ${phone}\nEmail: ${email}`;
-            var encodedMessage = encodeURIComponent(message);
-            var whatsappURL = `https://wa.me/?text=${encodedMessage}`;
-            window.open(whatsappURL, '_blank');
-        }
-
-        // Save contact as vCard (.vcf file)
-        function saveToContacts() {
-            var vCardData = `BEGIN:VCARD
-VERSION:3.0
-FN:Hariprasath
-ORG:META Advertising Expert
-TEL:+1234567890
-EMAIL:hari@example.com
-END:VCARD`;
-
-            var blob = new Blob([vCardData], { type: 'text/vcard' });
-            var link = document.createElement('a');
-            link.href = window.URL.createObjectURL(blob);
-            link.download = 'Hariprasath.vcf';
-            link.click();
-        }
-
-        // Save contact information as a PDF
-        function saveAsPDF() {
-            var contactName = "Hariprasath";
-            var jobTitle = "META Advertising Expert";
-            var phone = "+1234567890";
-            var email = "hari@example.com";
-
-            var pdfContent = `
-            Name: ${contactName}\n
-            Job Title: ${jobTitle}\n
-            Phone: ${phone}\n
-            Email: ${email}\n
-            `;
-
-            var blob = new Blob([pdfContent], { type: 'application/pdf' });
-            var link = document.createElement('a');
-            link.href = window.URL.createObjectURL(blob);
-            link.download = 'Contact_Details.pdf';
-            link.click();
-        }
-    </script>
-      </section>
-      
-      
-  <!-- See all services-->
+      <!-- See all services-->
       <section class="section section-sm section-first bg-default text-center" id="services">
       <div class="container">
   <div class="row row-30 justify-content-center">
@@ -325,7 +196,40 @@ END:VCARD`;
 </div>
         </div>
       </section>
-    
+
+<!-- Cta-->
+    <!-- <section class="section section-fluid bg-default">
+        <div class="parallax-container" data-parallax-img="images/parallax-1.jpg">
+          <div class="parallax-content section-xl context-dark bg-overlay-68 bg-mobile-overlay">
+            <div class="container">
+              <div class="row row-30 justify-content-end text-right">
+                <div class="col-sm-7">
+                 <outline>In 2015, I started an online business to sell via social media platforms such as Facebook and Instagram after working for 5 years in the digital space.</outline><br>
+				  <outline>I have successfully generated over INR 40 million in online revenue and increased footfall for offline businesses, resulting in an additional INR 50 million in revenue.</outline>
+                  <outline>Based on my experience owning an online business, I now help B2C businesses create a robust online presence and generate revenue primarily by running ad campaigns.</outline>
+                  <div class="group-sm group-middle group justify-content-end"><a class="button button-primary button-ujarak" href="https://www.facebook.com/kraftome/" >Shop AT</a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      -->
+      <section  id="about">
+<div class="about-container">
+		<div class="image-container">
+			<img src="images/user-1-216x216.png" alt="Profile Picture" width="250" height="250" align="middle">
+		</div>
+		<div class="text-container">
+			<p style="color:#979494; font-size: 18px;" >About Hari</p>
+         <h3 align="Left">Hariprasath is a META advertising expert and ecommerce coach</h3>
+			<p align="left">In 2015, I launched an online venture selling through social media like Facebook and Instagram after 5 years in digital.</p>
+				  <p align="left">I've generated over ₹50M+ online and boosted foot traffic for offline businesses, adding ₹60M+ revenue.</p>
+	  <p align="left">Leveraging my online business experience, I assist B2C enterprises in building strong social sales funnels and revenue through targeted ad campaigns.</p><a class="button button-primary button-ujarak" href="https://www.facebook.com/kraftome">Check my Business Profile</a>
+      		</div>
+	</div>
+    </section>
       
 <!--<section class="section section-sm section-fluid bg-default text-center" id="about">
         <div class="container-fluid">
