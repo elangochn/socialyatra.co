@@ -20389,13 +20389,15 @@ disabled look for disabled choices in the results dropdown
             grid-template-rows: repeat(4, auto); /* 4 rows */
             gap: 10px; /* Gap between the divs */
             width: 25%;
-            margin: 0 auto;
+            margin:auto;
+			justify-content: center; /* Horizontal centering */
+   			align-items: center;     /* Vertical centering */
         }
         .boxt {
-            background-color: #fff;
+			background-color: #fff;
             border-radius: 10px;
             padding: 30px;
-            text-align: center;
+			text-align: center;
             transition: transform 0.3s, background-color 0.3s;
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
         }
