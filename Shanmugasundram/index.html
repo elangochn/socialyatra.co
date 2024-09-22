@@ -243,24 +243,24 @@
         function saveToContacts() {
             var vCardData = `BEGIN:VCARD
 VERSION:3.0
-FN:Hariprasath
-ORG:META Advertising Expert
-TEL:+1234567890
+FN:SHANMUGASUNDARAM.K
+ORG:Karftome : Business Owner
+TEL:+91 9842268496
 EMAIL:hari@example.com
 END:VCARD`;
 
             var blob = new Blob([vCardData], { type: 'text/vcard' });
             var link = document.createElement('a');
             link.href = window.URL.createObjectURL(blob);
-            link.download = 'Hariprasath.vcf';
+            link.download = 'SHANMUGASUNDARAM.vcf';
             link.click();
         }
 
         // Save contact information as a PDF
         function saveAsPDF() {
-            var contactName = "Hariprasath";
-            var jobTitle = "META Advertising Expert";
-            var phone = "+1234567890";
+            var contactName = "SHANMUGASUNDARAM.K";
+            var jobTitle = "Karftome : Business Owner";
+            var phone = "+91 9842268496";
             var email = "hari@example.com";
 
             var pdfContent = `
