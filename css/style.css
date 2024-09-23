@@ -12340,7 +12340,6 @@ html:not(.lt-ie10) .not-animated {
 	z-index: 9999999;
 	background: #ffffff;
 	transition: .3s all ease;
-	
 }
 
 .preloader.loaded {
@@ -12355,7 +12354,6 @@ html:not(.lt-ie10) .not-animated {
 
 .preloader.loaded .cssload-container span {
 	animation: none;
-	
 }
 
 .preloader.ending {
@@ -12393,34 +12391,30 @@ html:not(.lt-ie10) .not-animated {
 	display: block;
 	width: 40px;
 	height: 40px;
-	background-color: #f1aa49;
+	background-color: #6689ff;
 	animation: loaderBlock 1.2s infinite ease-in-out both;
 }
 
 .cssload-container span:nth-child(1) {
 	top: 0;
 	left: 0;
-
 }
 
 .cssload-container span:nth-child(2) {
 	top: 0;
 	right: 0;
-
 	animation: loaderBlockInverse 1.2s infinite ease-in-out both;
 }
 
 .cssload-container span:nth-child(3) {
 	bottom: 0;
 	left: 0;
-	
 	animation: loaderBlockInverse 1.2s infinite ease-in-out both;
 }
 
 .cssload-container span:nth-child(4) {
 	bottom: 0;
 	right: 0;
-	
 }
 
 @keyframes loader {
@@ -12439,7 +12433,7 @@ html:not(.lt-ie10) .not-animated {
 		transform: rotate(0);
 	}
 	55% {
-		background-color: #f1aa49;
+		background-color: #6689ff;
 	}
 	100% {
 		transform: rotate(90deg);
@@ -12451,7 +12445,7 @@ html:not(.lt-ie10) .not-animated {
 		transform: rotate(0);
 	}
 	55% {
-		background-color: #f1aa49;
+		background-color: #6689ff;
 	}
 	100% {
 		transform: rotate(-90deg);
@@ -20296,162 +20290,50 @@ disabled look for disabled choices in the results dropdown
 }
 
 /**aboutus**/
- .about-container {
-            
-          
-        background-color: #f6f6f6;
-           
-            width: 100%;
-           
-            text-align: center;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-            border-radius: 10px;
-			margin: 0 auto;
-		
-			padding: 50px;
-        }
-		
-		.about-container1 {
-                   
-        background-color:#f6f6f6;
-           
-            width: 100%;
-           
-            text-align: center;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-            border-radius: 10px;
-			margin: 0 auto;
-		
-			padding: 50px;
-        }
- 
- .about-container2 {
-                   
-        background-color:#f6f6f6;
-           
-            width: 100%;
-           
-            text-align: center;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-            border-radius: 10px;
-			margin: 0 auto;
-			text-align: center;
-            position: relative;
-			padding: 50px;
-        }
-		  .profile {
-            width: 288px;
-            height: 288px;
-            border-radius: 50%;
-            margin: 0 auto;
-            position: relative;
-            overflow: hidden;
-        }
+.about-container {
+	
+	margin: 0 auto;
+	padding: 50px;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	max-width:770;
+	background-color:#f6f6f6;
+	
+}
 
-        .profile img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-        }
+.image-container {
+	width: 30%;
+	float: left;
+	margin-right: 5%;
+	padding:5%;
 
-        .profile-picture {
-            width: 150px;
-            height: 150px;
-            border-radius: 50%;
-            object-fit: cover;
-            margin-bottom: 20px;
-            border: 4px solid #fff;
-        }
-		  .call-button {
-            width: 100px;
-            height: 100px;
-            border-radius: 50%;
-            background-color: #57f542; /* White background */
-            color: green; /* Green phone icon */
-            position: absolute;
-            bottom: 0;
-            left: 50%;
-			transform: translateX(25%);
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            font-size: 24px;
-            cursor: pointer;
-			
-        }
+}
 
-        .about-container h1 {
-            margin: 10px 0;
-            font-size: 22px;
-            color: #333;
-        }
+.text-container {
+	width: 50%;
+	float: left;
+}
 
-        .about-container p {
-            font-size: 16px;
-            color: #666;
-            margin: 10px 0;
-            line-height: 1.6;
-        }
-
-        .contact-info {
-            margin: 20px 0;
-        }
-
-        .contact-info a {
-            text-decoration: none;
-            color: #333;
-            font-size: 20px;
-            margin: 0 10px;
-        }
-
-        .contact-info a:hover {
-            color: #0056b3;
-        }
-
-        .action-buttons {
-            margin-top: 20px;
-        }
-
-        .action-buttons button, .action-buttons a {
-            margin: 5px;
-            padding: 10px 15px;
-            border: none;
-            border-radius: 5px;
-            background-color: #0066cc;
-            color: white;
-            text-decoration: none;
-            font-size: 14px;
-            cursor: pointer;
-        }
-
-        .action-buttons button:hover, .action-buttons a:hover {
-            background-color: #005bb5;
-        }
-
-        .containert {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr); /* 2 columns */
-            grid-template-rows: repeat(4, auto); /* 4 rows */
-            gap: 10px; /* Gap between the divs */
-            width: 25%;
-            margin:auto;
-			justify-content: center; /* Horizontal centering */
-   			align-items: center;     /* Vertical centering */
-        }
-        .boxt {
-			background-color: #fff;
-            border-radius: 10px;
-            padding: 30px;
-			text-align: center;
-            transition: transform 0.3s, background-color 0.3s;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-        }
-        .boxt:hover {
-            transform: scale(1.1);
-           background-color: #afcbfd; /* Background color on hover */
-            color: white; /* Text and icon color on hover */
-        }
-		        .box:hover i {
-            color: white; /* Change icon color on hover */
-        }
-
+@media only screen and (max-width: 768px) {
+	.about-container {
+		flex-direction: column;
+	}
+	
+	.image-container {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	
+	.text-container {
+		width: 100%;
+	}
+	
+	h1 {
+		font-size: 1.5rem;
+	}
+	
+	p {
+		font-size: 1rem;
+	}
+}
