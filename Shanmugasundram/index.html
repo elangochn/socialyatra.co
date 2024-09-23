@@ -16,7 +16,7 @@
 <script src="https://apps.elfsight.com/p/platform.js" defer></script>
 <div class="elfsight-app-c1a02a71-00e2-476e-a8d7-c3fa2653b01e"></div> -->
 <script src="https://apps.elfsight.com/p/platform.js" defer></script>
-<div class="elfsight-app-d17f99c9-7dae-4ab4-b1ef-df5ed8f616b3"></div>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"><div class="elfsight-app-d17f99c9-7dae-4ab4-b1ef-df5ed8f616b3"></div>
     <title>Social Funnel By Hari</title>
     <meta name="format-detection" content="telephone=no">
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
@@ -179,104 +179,23 @@
       
       -->
       <section  id="Home">
-            <div class="about-container1">
-	        <!-- Centered Profile Image -->
-
-        <img src="images/user-1-216x216.png" alt="Profile Picture" width="288" height="288" align="center">
-        <br><br>
-         <h4><strong>SHANMUGASUNDARAM .K</strong></h4>
-			<p><strong>Business Owner </strong></p>
-				  <p><strong>Upcycling Vintage Furniture</strong></p>
-			</div>
-    <br>
-     <div class="containert">
-         <div class="boxt" justify-content-center">
-        <a href="tel:+919842268496">
-    <img src="images\Phone_call.png" alt="Call Us" >
-</a><p>Phone</p>
-          
+            <div class="about-container2">
+	            <div class="profile">
+             
+            <img src="images/user-1-216x216.png" alt="Profile Picture" align="center" >
+            <a href="tel:+1234567890" class="call-button" >📞</a>
+            
         </div>
-        <div class="boxt">
-        <a href="https://www.facebook.com/kraftome" target="_blank">
-            <img src="images\facebook.png"  alt="Facebook"></a>
-            <p>Facebook</p>
+        <div>
+        <br>
+        <h4><strong>SHANMUGASUNDARAM.K</strong></h4>
+        <strong><p>Business Owner <br>
+Upcycling Vintage Furniture</p</strong>
+
         </div>
-                <div class="boxt">
-                <a href="https://www.instagram.com/kraftome.vintage" target="_blank">
-    
-            <img src="images\Insta.png" alt="Instagram"></a>
-            <p>Instagram</p>
-        </div>
-        <div class="boxt">
-            <img src="images\Whatsapp.png" onClick="shareOnWhatsApp()" alt="Share in WhatsApp">
-            <p>Share in WhatsApp</p>
-        </div>
-        <div class="boxt">
-            <img src="images\Save_to_Phone_book.png"  onclick="saveToContacts()" alt="Save to Contact">
-	<p>Save to Contact</p>
-        </div>
-       
-        <div class="boxt">
-            <img src="images/PDF_Down.png"  onclick="saveAsPDF()" alt="Save PDF">
-            <p>Save PDF</p>
-            </div>
-      </div>
-    </div>
-
-    <!-- Scripts -->
-  
-     
-     <script>
-        // Share contact details via WhatsApp
-        function shareOnWhatsApp() {
-            var contactName = "SHANMUGASUNDARAM.K";
-            var jobTitle = "Business Owner";
-            var phone = "+91 9842268496";
-            var email = "hari@example.com";
-            var message = `Check out this contact:\nName: ${contactName}\nJob Title: ${jobTitle}\nPhone: ${phone}\nEmail: ${email}`;
-            var encodedMessage = encodeURIComponent(message);
-            var whatsappURL = `https://wa.me/?text=${encodedMessage}`;
-            window.open(whatsappURL, '_blank');
-        }
-
-        // Save contact as vCard (.vcf file)
-        function saveToContacts() {
-            var vCardData = `BEGIN:VCARD
-VERSION:3.0
-FN:SHANMUGASUNDARAM.K
-ORG:Karftome : SHANMUGASUNDARAM.K
-TEL:+91 9842268496
-EMAIL:hari@example.com
-END:VCARD`;
-
-            var blob = new Blob([vCardData], { type: 'text/vcard' });
-            var link = document.createElement('a');
-            link.href = window.URL.createObjectURL(blob);
-            link.download = 'SHANMUGASUNDARAM.vcf';
-            link.click();
-        }
-
-        // Save contact information as a PDF
-        function saveAsPDF() {
-            var contactName = "SHANMUGASUNDARAM.K";
-            var jobTitle = "Karftome : Business Owner";
-            var phone = "+91 9842268496";
-            var email = "hari@example.com";
-
-            var pdfContent = `
-            Name: ${contactName}\n
-            Job Title: ${jobTitle}\n
-            Phone: ${phone}\n
-            Email: ${email}\n
-            `;
-
-            var blob = new Blob([pdfContent], { type: 'application/pdf' });
-            var link = document.createElement('a');
-            link.href = window.URL.createObjectURL(blob);
-            link.download = 'Contact_Details.pdf';
-            link.click();
-        }
-    </script>
+</div>
+        
+   
       </section>
       
       
