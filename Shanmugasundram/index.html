@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Website</title>
+    <style>
+        /* General styles */
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #e0e0e0;
+            overflow-x: hidden;
+        }
+
+        /* Header container */
+        .header {
+            position: relative;
+            height: 300px;
+            overflow: hidden;
+        }
+
+        /* Image inside the header */
+        .header img {
+            width: 558px;
+  			height: 316px;
+			animation: fadeOut 1s forwards;
+			border-top-left-radius: 5%;
+			border-top-right-radius: 5%;
+			border-bottom-right-radius: 5%;
+			border-bottom-left-radius: 5%; 
+			
+        }
+
+        @keyframes fadeOut {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+
+        /* Text overlay on the image */
+        .header-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            text-align: center;
+						 
+			
+
+ 	        }
+
+        .header-text h1 {
+            font-size: 28px;
+            margin: 0;
+        }
+
+        .header-text p {
+            font-size: 18px;
+            margin: 5px 0;
+        }
+
+        /* Icon button styling */
+        .icon-buttons {
+            position: absolute;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        .icon-buttons a {
+            width: 50px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #007BFF;
+            border-radius: 50%;
+            color: white;
+            text-decoration: none;
+            font-size: 24px;
+            transition: background-color 0.3s ease;
+        }
+
+        .icon-buttons a:hover {
+            background-color: #0056b3;
+        }
+
+        /* Responsive design for mobile devices */
+        @media (max-width: 768px) {
+            .header {
+                height: 250px;
+            }
+
+            .header-text h1 {
+                font-size: 22px;
+            }
+
+            .header-text p {
+                font-size: 16px;
+            }
+
+            .icon-buttons {
+                gap: 8px;
+            }
+
+            .icon-buttons a {
+                width: 45px;
+                height: 45px;
+                font-size: 22px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .header {
+                height: 200px;
+            }
+
+            .header-text h1 {
+                font-size: 20px;
+            }
+
+            .header-text p {
+                font-size: 14px;
+            }
+
+            .icon-buttons {
+                gap: 6px;
+            }
+
+            .icon-buttons a {
+                width: 40px;
+                height: 40px;
+                font-size: 20px;
+            }
+        }
+    </style>
+
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <!-- Header section with fade-out effect and buttons on image -->
+    <div class="header" align="center" style="margin-top:5%" >
+        <!-- Image tag inside HTML -->
+        <img src="images/header.jpg" alt="Header Image"> <!-- Replace with your image path -->
+
+        <!-- Text overlay on image -->
+        <div class="header-text">
+            <h1>Shanmugasundram. K</h1>
+            <p><strong>Business Owner</strong></p>
+            <p><strong>Upcycling Vintage Furniture</strong></p>
+        </div>
+
+        <!-- Round Icon Buttons on image -->
+        <div class="icon-buttons">
+            <!-- Phone Call Icon -->
+            <a href="tel:+1234567890" title="Call Us">
+                <i class="fas fa-phone"></i>
+            </a>
+
+            <!-- WhatsApp Icon -->
+            <a href="#" title="Share on WhatsApp" onclick="shareOnWhatsApp()">
+                <i class="fab fa-whatsapp"></i>
+            </a>
+
+            <!-- Send Contact Card Icon -->
+            <a href="#" title="Send Contact Card" onclick="sendContactCard()">
+                <i class="fas fa-address-card"></i>
+            </a>
+
+            <!-- Download PDF Icon -->
+            <a href="#" title="Download PDF" onclick="downloadPDF()">
+                <i class="fas fa-file-pdf"></i>
+            </a>
+
+            <!-- QR Code Icon -->
+            <a href="#" title="Generate QR Code" onclick="generateQRCode()">
+                <i class="fas fa-qrcode"></i>
+            </a>
+        </div>
+    </div>
+
+    <!-- JavaScript for functionality -->
+    <script>
+        function sendContactCard() {
+            window.location.href = 'mailto:email@example.com?subject=Contact%20Card&body=Here%20is%20our%20contact%20information.';
+        }
+
+        function shareOnWhatsApp() {
+            const phoneNumber = "1234567890"; // Replace with your WhatsApp number
+            const message = "Check out this amazing website!";
+            window.open(`https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`);
+        }
+
+        function downloadPDF() {
+            const link = document.createElement('a');
+            link.href = 'your-document.pdf'; // Replace with the actual PDF path
+            link.download = 'document.pdf';
+            link.click();
+        }
+
+        function generateQRCode() {
+            const qrCodeUrl = 'https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=YourWebsiteURL'; // Replace with your website URL
+            window.open(qrCodeUrl, '_blank');
+        }
+    </script>
+
+</body>
+</html>
