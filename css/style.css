@@ -2260,6 +2260,8 @@ img {
 	display: inline-block;
 	max-width: 100%;
 	height: auto;
+    padding-left: 5px;
+    padding-right: 5px; 
 }
 
 .img-responsive {
