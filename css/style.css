@@ -37,7 +37,9 @@ label {
 
 p {
 	margin: 0;
-}
+    padding-left: 5px;
+    padding-right: 5px;
+    }
 
 outline{
     color: #fff;
@@ -11136,6 +11138,7 @@ h4 + .instafeed {
 
 .section-sm {
 	padding: 30px 0;
+	
 }
 
 .section-sm.section-first {
@@ -11240,6 +11243,7 @@ html [class*='section-'].section-top-0 {
 	.section-fluid {
 		padding-left: 75px;
 		padding-right: 75px;
+		
 	}
 	.section-fluid .container-fluid {
 		padding-left: 0;
@@ -11247,6 +11251,7 @@ html [class*='section-'].section-top-0 {
 		max-width: 1770px;
 		margin-left: auto;
 		margin-right: auto;
+		
 	}
 }
 
@@ -20289,7 +20294,7 @@ disabled look for disabled choices in the results dropdown
 	border-radius: 50%;
 }
 
-  /* Centered container */
+ /* Centered container */
     .about-container {
       background: #ffffff; /* White background for the text container */
       padding: 20px;
@@ -20331,4 +20336,3 @@ disabled look for disabled choices in the results dropdown
         font-size: 0.9rem;
       }
     }
-	
