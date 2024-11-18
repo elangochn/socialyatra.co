@@ -1622,6 +1622,7 @@ a[href*='tel'], a[href*='mailto'] {
 	color: #6689ff;
 }
 
+
 .box-project-text {
 	letter-spacing: .025em;
 }
@@ -4739,6 +4740,7 @@ textarea.textarea-lg {
 	overflow: hidden;
 }
 
+
 .post-classic-figure img {
 	width: 100%;
 	transition: all .3s ease;
@@ -6917,6 +6919,7 @@ textarea.textarea-lg {
 		opacity: 0;
 		transform: scale(3);
 		visibility: hidden;
+
 	}
 }
 
@@ -9455,6 +9458,7 @@ h5 + .list-popular-product {
 			transform: scale(1.025);
 		}
 	}
+
 	.desktop .product-big:hover .product-big-figure img {
 		transform: translate(-50%, -50%) scale(1);
 	}
@@ -12803,6 +12807,7 @@ html.tablet .ui-to-top {
 .rd-navbar-static .rd-nav-item > .rd-navbar-submenu-toggle::before {
 	position: relative;
 	display: inline-block;
+
 	transition: .22s;
 	content: '\f236';
 }
@@ -13177,6 +13182,7 @@ html.tablet .ui-to-top {
 	transform: translateX(20px);
 	will-change: transform;
 	transition: all .3s ease;
+
 }
 
 .rd-navbar-static .rd-navbar-share-list.active {
@@ -13384,6 +13390,7 @@ html.tablet .ui-to-top {
 	height: 0;
 	border-style: solid;
 	border-width: 0 0 28px 28px;
+
 	border-color: transparent transparent rgba(0, 0, 0, 0.04) transparent;
 	z-index: 0;
 }
@@ -15143,6 +15150,7 @@ html.rd-navbar-fixed-linked .page-header {
 	text-align: center;
 	transform: translate3d(0, 0, 0);
 	transition: .3s;
+
 	z-index: 10;
 }
 
