@@ -15394,8 +15394,8 @@ html.rd-navbar-fixed-linked .page-header {
 
 @media (min-width: 768px) {
 	.swiper-slider-classic {
-		min-height: 460px;
-		max-height: 742px;
+		min-height: 260px;
+		max-height: 242px;
 	}
 	.swiper-slider-classic.swiper-container-vertical .swiper-pagination-bullet {
 		display: block;
