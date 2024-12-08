@@ -10882,6 +10882,7 @@ h4 + .instafeed {
 
 .row-10 > * {
 	margin-bottom: 10px;
+	color: #FFF;
 }
 
 .row-14 {
@@ -11501,7 +11502,7 @@ html [class*='section-'].section-top-0 {
 .footer-corporate.context-dark .footer-corporate-bottom-panel a:hover,
 .footer-corporate.bg-gray-dark .footer-corporate-bottom-panel a:hover,
 .footer-corporate.bg-primary .footer-corporate-bottom-panel a:hover {
-	color: #6689ff;
+	color: #FFF;
 }
 
 .footer-minimal.context-dark .rights, .footer-minimal.bg-gray-dark .rights, .footer-minimal.bg-primary .rights, .footer-corporate.context-dark .rights, .footer-corporate.bg-gray-dark .rights, .footer-corporate.bg-primary .rights {
